@@ -7,7 +7,7 @@ import axios from 'axios';
 
 // Token de acesso
 const mercadoPagoToken = process.env.MP_TOKEN;
-const PORT: string | number = process.env.PORT || 5001;
+const PORT = process.env.PORT;
 
 const app = express();
 app.use(cors());
